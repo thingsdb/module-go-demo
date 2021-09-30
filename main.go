@@ -16,7 +16,7 @@
 //	      `Got the message back: {msg}`
 //     });
 //
-package demo
+package main
 
 import (
 	"fmt"
