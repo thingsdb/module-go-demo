@@ -37,13 +37,14 @@ for i in ${!arr[@]}; do
     fi
 
     GOOS="${osarch[0]}" GOARCH="${osarch[1]}" go build -o "${OUT}$fn"
-    output="$output\n    \"${arr[i]}\": \"${OUT}$fn\""
+    output="$output\n    \"${arr[i]}\": \"@/$fn\""
 done
 
 output="$output\n}"
 
 echo "DONE!"
 echo
-echo "Add the following as \"main\" to your module.json file:"
+echo "Create release equal to this version, for example 0.1.0 and add the"
+echo "following as \"main\" to your module.json file:"
 echo "..."
 echo -e "$output"
