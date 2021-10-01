@@ -2,14 +2,14 @@
     "doc": "https://github.com/thingsdb/module-go-demo#readme",
     "version": "0.1.0",
     "main": {
-        "linux/386": "bin/demo_linux_386.bin",
-        "linux/amd64": "bin/demo_linux_amd64.bin",
-        "linux/arm": "bin/demo_linux_arm.bin",
-        "linux/arm64": "bin/demo_linux_arm64.bin",
-        "freebsd/386": "bin/demo_freebsd_386.bin",
-        "freebsd/amd64": "bin/demo_freebsd_amd64.bin",
-        "freebsd/arm": "bin/demo_freebsd_arm.bin",
-        "freebsd/arm64": "bin/demo_freebsd_arm64.bin",
-        "darwin/amd64": "bin/demo_darwin_amd64.bin"
+        "linux/386": "@/demo_linux_386.bin",
+        "linux/amd64": "@/demo_linux_amd64.bin",
+        "linux/arm": "@/demo_linux_arm.bin",
+        "linux/arm64": "@/demo_linux_arm64.bin",
+        "freebsd/386": "@/demo_freebsd_386.bin",
+        "freebsd/amd64": "@/demo_freebsd_amd64.bin",
+        "freebsd/arm": "@/demo_freebsd_arm.bin",
+        "freebsd/arm64": "@/demo_freebsd_arm64.bin",
+        "darwin/amd64": "@/demo_darwin_amd64.bin"
     }
 }
