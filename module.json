@@ -11,5 +11,26 @@
         "freebsd/arm": "bin/demo_freebsd_arm.bin",
         "freebsd/arm64": "bin/demo_freebsd_arm64.bin",
         "darwin/amd64": "bin/demo_darwin_amd64.bin"
+    },
+    "includes": [
+        "README.md"
+    ],
+    "exposes": {
+        "msg": {
+            "doc": "Echo message",
+            "defaults": {
+                "load": true
+            },
+            "argmap": ["message"]
+        }
+    },
+    "defaults": {
+        "null_value": null,
+        "map_value": {
+            "nested": {
+                "x": 123
+            }
+        },
+        "message": "hello!!"
     }
 }
