@@ -25,7 +25,7 @@
         }
     },
     "defaults": {
-        "null_value": null,
+        "load": true,
         "map_value": {
             "nested": {
                 "x": 123
