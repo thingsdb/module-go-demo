@@ -13,7 +13,7 @@
         "darwin/amd64": "bin/demo_darwin_amd64.bin"
     },
     "exposes": {
-        "msg": {
+        "echo": {
             "doc": "Echo message",
             "defaults": {
                 "load": true
