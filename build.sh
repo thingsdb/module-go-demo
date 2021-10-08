@@ -1,6 +1,6 @@
 #!/bin/bash
 declare -a arr=(
-    "linux/386"
+    #"linux/386"
     "linux/amd64"
     # "linux/arm"
     # "linux/arm64"
