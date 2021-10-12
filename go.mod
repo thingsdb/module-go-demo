@@ -1,4 +1,4 @@
-module demo
+module github.com/thingsdb/module-go-demo
 
 go 1.16
 
